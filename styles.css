@@ -25,7 +25,7 @@ h1 {
   border-radius: 20px;
   border-color: #E31414;
   width: calc(33.333% - 20px); 
-  box-shadow: 8px 8px #F00ADD;
+  box-shadow: 8px 8px pink;
   display: flex;
   flex-direction: column;
   align-items: center;
