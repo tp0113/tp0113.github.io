@@ -14,17 +14,17 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px; 
   margin: auto;
 }
 
 .assign {
-  background-color: #A5AA7B;
+  background-color: #DFF702;
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
-  border-color: #F0FF63;
-  width: calc(33.333% - 20px); /* Adjust width for 3 sections per row */
+  border-color: #E31414;
+  width: calc(33.333% - 20px); 
   box-shadow: 8px 8px brown;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .assign img:hover {
-  border: 2px dotted white;
+  border: 3px dotted black;
 }
 
 .assign-det {
