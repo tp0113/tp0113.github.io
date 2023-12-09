@@ -1,1 +1,48 @@
+body {
+  background-color: #87CEFA;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
 
+h1 {
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: auto;
+}
+
+.assign {
+  background-color: #A5AA7B;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: #F0FF63;
+  width: calc(33.333% - 20px); /* Adjust width for 3 sections per row */
+  box-shadow: 8px 8px brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assign img {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px auto;
+  border: 2px solid red;
+}
+
+.assign img:hover {
+  border: 2px dotted white;
+}
+
+.assign-det {
+  text-align: left;
+  width: 100%;
+}
